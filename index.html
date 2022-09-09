@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, ,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icono.ico">
+    <title>GABAOR TRAVELS</title>
+</head>
+
+<body>
+    <header class="header">
+		<div class="container">
+			<div class="btn-menu">
+				<label for="btn-menu">☰</label>
+			</div>
+			<div class="logo">
+                <img src="img/logo.png" class="logo-img">
+				<h3 class="logo-nombre">Aléjese de todo de la manera correcta</h3>
+			</div>
+			<nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="sobrenosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+	<!--	--------------->
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
+		<div class="cont-menu">
+			<nav>
+				<a href="#portafolio">Portafolio</a>
+                <a href="#servicio">Servicios</a>
+                <a href="paquete.html">Paquetes de Viajes</a>
+			</nav>
+			<label for="btn-menu">✖️</label>
+		</div>
+	</div>
+
+    <main>
+        <!--INICIO-->
+        <section class="contenedor" id="inicio">
+            <div class="contenedor-inicio">
+                <img class="inicio-img" src="img/header.jpg" alt="">
+                <div class="checklist-inicio">
+                    <div class="inicio"> <!--service/n-service-->
+                        <h1 class="subtitulo-inicio">PLANIFIQUE SU PRÓXIMA AVENTURA CON GABAOR TRAVELS</h1>
+                        <form class="formulario">
+                            <p class="reser">Reservas</p>
+                            <div class="col-md-4">
+                                <div class="form-dest">
+                                    <input class="dest" type="text" name="" value="" placeholder="Desde...">
+                                </div>    
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-dest">
+                                    <input class="dest" type="text" name="" value="" placeholder="Hacia...">
+                                </div>  
+                            </div>
+                            <div class="col-12">
+                                <label for="fecha" class="form-label"></label>
+                                <input type="date" class="form-control" placeholder="Ida" id="fecha">
+                            </div>
+                           <div class="col-12">
+                                <label for="inputSalida" class="form-label"></label>
+                                <input type="date" class="form-con" id="inputSalida" placeholder="Salida">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputOrigen" class="form-label"></label>
+                                <select id="inputOrigen" class="form-selecto">
+                                    <option selected>Pasajeros</option>
+                                    <option>1 Pasajeros</option>
+                                    <option>2 Pasajeros</option>
+                                    <option>3 Pasajeros</option>
+                                    <option>4 Pasajeros</option>
+                                    <option>Más...</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="b">Buscar</button>
+                            </div>
+                        </form>
+                    </div>
+                        <p class="text-inicio">Un mundo de infinitas posibilidades de viaje.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--INICIO-->
+        <!--SERVICIOS-->
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">OFERTAS DE VIAJE EXCLUSIVAS</h2>
+            <p class="subititulo2">Descubra un nuevo destino</p>
+            <p class="subititulo2">GABAOR TRAVELS ofrece paquetes personalizados para satisfacer todas sus necesidades
+                de viaje. No
+                importa qué tipo de viaje esté buscando, nos esforzaremos por satisfacer sus necesidades. Explore
+                nuestra lista de
+                ofertas y contáctenos para empezar a planificar su próxima escapada de ensueño.</p>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img class="img-container" src="img/pagina1.jpg" alt="">
+                    <h3 class="n-expert">VISITA AL CASTILLO DE BAVIERA</h3>
+                    <p class="n-expert">Contáctenos hoy mismo para conocer más sobre nuestro(a/os/as) exclusivo(a/os/as) Visita al
+                        Castillo de Baviera. Hay una cantidad limitada de lugares, así que contáctenos hoy mismo
+                        para asegurarse de que no se lo pierda. Prepárese para crear memorias inolvidables, ¡y no se
+                        olvide de enviarnos una postal!</p>
+                </div>
+                <div class="cont-expert">
+                    <img class="img-container" src="img/pagina11.jpg" alt="">
+                    <h3 class="n-expert">CRUCERO DE CUATRO DÍAS POR EL CARIBE</h3>
+                    <p class="n-expert">Este es un paquete especial ofrecido exclusivamente por nuestro(a) Agencia+de+viajes. Disfrute de una
+                        aventura única
+                        que nunca olvidará. Los lugares son limitados. así que contáctenos hoy mismo y asegúrese de no
+                        perderse la
+                        experiencia de su vida.</p>
+                </div>
+            </section>
+        </section>
+        <!--PORTAFOLIO-->
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Viajes de nuestros clientes.</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" alt="" class="img-galeria">
+                    <img src="img/dos.jpg" alt="" class="img-galeria">
+                    <img src="img/tres.jpg" alt="" class="img-galeria">
+                    <img src="img/cuatro.jpg" alt="" class="img-galeria">
+                    <img src="img/cinco.jpg" alt="" class="img-galeria">
+                    <img src="img/seis.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        
+        <!--PORTAFOLIO-->
+
+    </main>
+
+    <!--PIE DE PAGINA-->
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">GABAOR TRAVELS</h2>
+                <br><p class="text-footer">Expertos en programación de viajes con los mejores paquetes que puedas encontrar.</p>
+                <br><p class="text-footer">©2022 por GABAOR TRAVELS. creada por Gabriela, Miguel, Pedro</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!--PIE DE PAGINA-->
+</body>
+</html>
